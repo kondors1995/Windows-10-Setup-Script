@@ -463,7 +463,7 @@ New-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\PenWorksp
 
 # Always show all icons in the notification area
 # Всегда отображать все значки в области уведомлений
-New-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer -Name EnableAutoTray -PropertyType DWord -Value 0 -Force
+#New-ItemProperty -Path HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer -Name EnableAutoTray -PropertyType DWord -Value 0 -Force
 
 # Unpin Microsoft Edge and Microsoft Store from taskbar
 # Открепить Microsoft Edge и Microsoft Store от панели задач
