@@ -9,19 +9,16 @@
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q51QUJC)
 </div>
 
-**Chris Titus Tech video**
+|              |                 |                |                |                |                |
+|--------------|-----------------|----------------|----------------|----------------|----------------|
+| [![YT](https://i.imgur.com/mADOh3c.png)](https://youtu.be/8E6OT_QcHaU?t=370) | [![YT](https://i.imgur.com/mADOh3c.png)](https://youtu.be/WK_A9c-m2PQ) | [![ghacks](https://i.imgur.com/K4f8VBo.png)](https://www.ghacks.net/2020/08/19/run-windows-10-setup-script-after-installation-to-customize-the-os/) | [![neowin](https://i.imgur.com/5fILFqz.png)](https://www.neowin.net/news/this-windows-10-setup-script-lets-you-fine-tune-around-150-functions-for-new-installs) | [![comss](https://cdn.comss.net/img/logo51.png)](https://www.comss.ru/page.php?id=7889) | [![habr](https://i.imgur.com/cXWLr4I.png)](https://habr.com/en/post/465365/) |
 
-[![YT](https://i.imgur.com/mADOh3c.png)](https://www.youtube.com/watch?v=8E6OT_QcHaU&t=370)
-
-**Britec09 video**
-
-[![YT](https://i.imgur.com/mADOh3c.png)](https://youtu.be/WK_A9c-m2PQ)
 
 ## FAQ
 
 * Due to the fact that the script includes about 150 functions, you must read the entire script and comment out those sections that you do not want to be executed otherwise likely you will enable features that you do not want to be enabled.
 * Running the script is best done on a fresh install because running it on tweaked system may result in errors occurring.
-* Some third-party antiviruses flag this script or its' part as malicious one. This is a false positive due to [$EncodedScript](https://github.com/farag2/Windows-10-Setup-Script/blob/298307bafee70b55ea00d9cba7a9e14ea6e4f5a4/Win%2010%202004.ps1#L2689) variable. You can read more on "Create a Windows cleaning up task in the Task Scheduler" section. You might need to disable tamper protection from your antivirus settings, re-enable it after running the script, and reboot.
+* Some third-party antiviruses flag this script or its' part as malicious one. This is a false positive due to [$EncodedScript](https://github.com/farag2/Windows-10-Setup-Script/blob/298307bafee70b55ea00d9cba7a9e14ea6e4f5a4/Win%2010%202004.ps1#L2689) variable. You can read more about in "Create a Windows cleaning up task in the Task Scheduler" section. You might need to disable tamper protection from your antivirus settings, re-enable it after running the script, and reboot.
 
 ## Screenshots
 
@@ -97,7 +94,7 @@ To run the script:
 
 ## GUI version (C#)
 
-Still cooking (moved to the private repository)
+[oz-zo](https://github.com/oz-zo) still cooking (moved to the private repository)
 
 ## 21H1 test version
 https://gist.github.com/farag2/5a6d9952247aefe42ba81a9d95507765
@@ -110,7 +107,6 @@ https://gist.github.com/farag2/5a6d9952247aefe42ba81a9d95507765
 
 ## Ask a question on
 
-- [Habr](https://habr.com/en/post/465365/)
 - [Ru-Board](http://forum.ru-board.com/topic.cgi?forum=62&topic=30617#15)
 - [4PDA](https://4pda.ru/forum/index.php?s=&showtopic=523489&view=findpost&p=95909388)
 - [My Digital Life](https://forums.mydigitallife.net/threads/powershell-script-setup-windows-10.81675/)
